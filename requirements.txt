@@ -1,9 +1,0 @@
-# Path 2 dual-ingest partner notebook (install on cluster via %pip)
-mlflow[databricks]>=3.11.0
-arize-otel>=0.8.0
-openinference-instrumentation-langchain>=0.1.30
-langchain>=0.3.0
-langchain-core>=0.3.0
-langchain-openai>=0.2.0
-opentelemetry-exporter-otlp-proto-http>=1.27.0
-openinference-semantic-conventions>=0.1.12
