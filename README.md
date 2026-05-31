@@ -1,4 +1,4 @@
-# Databricks × Arize: Path 2 dual OTel ingest (partner notebook)
+# Databricks × Arize: dual OTel ingest (partner notebook)
 
 Partner/customer notebook that demonstrates **split-stream OpenTelemetry tracing**:
 
@@ -9,15 +9,15 @@ The demo uses an **external-style** OpenAI + LangChain agent with OpenInference 
 
 ## Repository layout
 
-| Path | Description |
+| File | Description |
 |------|-------------|
-| `notebooks/path2_dual_ingest_external_otel.ipynb` | **Self-contained** Databricks notebook (working partner demo) |
+| `notebooks/dual_ingest_external_otel.ipynb` | **Self-contained** Databricks notebook (working partner demo) |
 | `notebooks/diagnose_arize_export.py` | Optional Arize-only connectivity test |
 
 ## Quick start
 
 1. Import this repo as a [Databricks Repo](https://docs.databricks.com/en/repos/index.html) **or** upload/copy the single notebook file.
-2. Open `notebooks/path2_dual_ingest_external_otel.ipynb` on a cluster with internet access.
+2. Open `notebooks/dual_ingest_external_otel.ipynb` on a cluster with internet access.
 3. Set cluster env vars: `ARIZE_SPACE_ID`, `ARIZE_API_KEY`, `DATABRICKS_TOKEN`, `OPENAI_API_KEY`.
 4. Set widgets (catalog, schema, SQL warehouse ID, Arize project name).
 5. **Run all** cells.
